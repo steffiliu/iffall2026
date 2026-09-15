@@ -1,0 +1,44 @@
+
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 35px;
+
+}
+
+h1 {
+
+    font-size: 32px;
+    margin-bottom: 2rem;
+    color: rgb(144, 40, 55);
+
+}
+
+h2 {
+
+    font-size: 24px;
+    margin-top: 2.5rem;
+
+}
+
+h3 {
+
+    font-size: 18px;
+
+}
+
+p {
+
+    font-size: 16px;
+
+    line-height: 1.5;
+
+}
+img{
+    width: 200px;
+    height: auto;
+}
+
+
+
