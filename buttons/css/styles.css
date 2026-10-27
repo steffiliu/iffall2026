@@ -1,0 +1,301 @@
+
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+* {
+    box-sizing: border-box;
+}
+
+.button_container {
+    margin: 35px;
+    text-align: center;
+}
+
+.button_container a {
+    display: inline-block;
+    padding: 18px 25px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* LYFT */
+#btn_lyft {
+    background-color: #FF00BF;
+    color: white;
+    border-radius: 50px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 rgba(255, 0, 191, 0);
+}
+
+
+
+#btn_lyft:hover {
+    background-color: #FF33CC;
+    box-shadow: 0 0 12px #FF00BF, 0 0 28px #FF00BF,
+                0 0 45px rgba(255, 0, 191, 0.6);
+    transform: scale(1.08);
+}
+
+
+
+/* HARRY POTTER */
+#btn_harrypotter {
+    position: relative;
+    background-color: #24100F;
+    color: #ffaa00;
+    border: 2px solid #ffaa00;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: inset 0 0 0 4px #24100F,
+                inset 0 0 0 5px #6D512B;
+    transition: all 0.4s;
+}
+
+#btn_harrypotter:hover {
+    background-color: #951b25;
+    color: #F8E5B0;
+    border-color: #E5C77B;
+    box-shadow: inset 0 0 0 4px hsl(355, 62%, 31%),
+                inset 0 0 0 5px #E5C77B,
+                0 0 15px rgba(216, 181, 109, 0.35);
+
+}
+
+
+/* THE NEW YORKER */
+#btn_newyorker {
+    position: relative;
+    background-color: #F5F0E8;
+    color: #222222;
+    border: 1px solid #222222;
+    font-family: Georgia, serif;
+    font-size: 17px;
+}
+
+#btn_newyorker::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    margin-top: 5px;
+    background-color: #222222;
+}
+
+#btn_newyorker:hover::after {
+    width: 100%;
+}
+
+#btn_newyorker:hover {
+    letter-spacing: 1px;
+}
+
+/* HARLEY-DAVIDSON */
+
+#btn_harley {
+    background: #101010;
+    color: #F36B21;
+    border: 2px solid #F36B21;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transition: all 0.3s ease;
+}
+
+#btn_harley:hover {
+    background: conic-gradient(
+        #F36B21 25%,
+        #101010 0 50%,
+        #F36B21 0 75%,
+        #101010 0
+    );
+    background-size: 24px 24px;
+    color: white;
+
+}
+/* APPLE*/
+
+#btn_apple {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #111111, #444444, #111111);
+    color: white;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    z-index: 1;
+}
+
+#btn_apple::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        #75BD25 0% 16.66%,
+        #FFCA28 16.66% 33.33%,
+        #FF641C 33.33% 50%,
+        #D10D32 50% 66.66%,
+        #B416A5 66.66% 83.33%,
+        #08A3D6 83.33% 100%
+    );
+    opacity: 0;
+    z-index: -1;
+}
+
+#btn_apple:hover::before {
+    opacity: 1;
+}
+
+#btn_apple:hover {
+    color: white;
+    border-color: white;
+}
